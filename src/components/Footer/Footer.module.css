@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "SBAggroB";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.allDelBtn {
+  font-family: "SBAggroB";
+  background-color: rgb(232, 40, 40);
+  color: white;
+  border: none;
+  padding: 13px;
+  width: 120px;
+  position: absolute;
+  right: 340px;
+  top: 640px;
+}
+
+.allDelBtn:hover {
+  background-color: rgb(194, 36, 36);
+}

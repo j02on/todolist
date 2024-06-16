@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "SBAggroB";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.completeBtn {
+  font-family: "SBAggroB";
+  background-color: rgb(66, 40, 232);
+  color: white;
+  border: none;
+  padding: 13px;
+  width: 120px;
+}
+
+.completeBtn:hover {
+  background-color: rgb(47, 25, 187);
+}
+
+.delBtn {
+  font-family: "SBAggroB";
+  background-color: rgb(232, 40, 40);
+  color: white;
+  border: none;
+  padding: 13px;
+  width: 120px;
+}
+
+.delBtn:hover {
+  background-color: rgb(194, 36, 36);
+}
+
+.listBack {
+  width: 610px;
+  height: 42px;
+  box-shadow: 0px 0px 3px rgb(188, 188, 188);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.ContentBtnAll {
+  display: flex;
+  gap: 2px;
+}
+
+.listMemo {
+  font-family: "SBAggroB";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkBtn {
+  width: 42px;
+  height: 42px;
+  accent-color: rgb(254, 232, 38);
+}
+
+.trueLine {
+  width: 95%;
+  height: 1px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
